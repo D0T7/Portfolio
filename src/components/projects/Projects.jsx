@@ -16,7 +16,7 @@ const Projects = () => {
           <div className="project__head"><h3>Portfolio Website</h3></div>
           <div className="project__desc"><small>My personal portfolio built with ReactJS. Reactive and compatible with a variety of device sizes.</small></div>
           <div className="project__cta">
-            <a href="https://github.com/D0T7/Portfolio" className='btn' rel="noreferrer">GitHub</a>
+            <a href="https://github.com/D0T7/Portfolio" className='btn'  target='_blank' rel="noreferrer">GitHub</a>
             {/* <a href="https://d0t7.github.io/portfolio-host/" className='btn btn-primary'>Link</a> */}
           </div>
         </article>

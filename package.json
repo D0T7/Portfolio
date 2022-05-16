@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "homepage": "https://d0t7.github.io/portfolio-host/",
   "author": "Asim Ali Khan",
   "github": "https://github.com/D0T7",
@@ -18,9 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
