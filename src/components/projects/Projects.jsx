@@ -14,13 +14,13 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="container project__container">
       <article className='projects'>
-          <div className='project__image'><img src={Watchdog} alt="Portfolio Website" /></div>
+          <div className='project__image'><img src={Watchdog} alt="Log Watchdog." /></div>
           <div className="project__head"><h3>Log Watchdog</h3></div>
           <div className="project__org"><small>ConverseNow AI.</small></div>
           <div className="project__desc"><small>An internal tool to check and maintain P.C.I compliance of company logs.</small></div>
         </article>
       <article className='projects'>
-          <div className='project__image'><img src={Inspector} alt="Portfolio Website" /></div>
+          <div className='project__image'><img src={Inspector} alt="Menu Inspector." /></div>
           <div className="project__head"><h3>Menu Inspector</h3></div>
           <div className="project__org"><small>ConverseNow AI.</small></div>
           <div className="project__desc"><small>An internal tool to compare internal menus, menu functions , translations, translation rules and items.</small></div>

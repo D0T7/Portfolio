@@ -24,9 +24,10 @@
 }
 
 .project__image {
-    height: 220px;
+    height: 200px;
     border-radius: 2.5rem;
     overflow: hidden;
+    object-fit: contain;
 }
 .project__org{
     margin: 0.5rem;
