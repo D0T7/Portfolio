@@ -16,13 +16,13 @@ const Projects = () => {
       <article className='projects'>
           <div className='project__image'><img src={Watchdog} alt="Portfolio Website" /></div>
           <div className="project__head"><h3>Log Watchdog</h3></div>
-          <div className="project__org"><small>ConverseNow AI</small></div>
+          <div className="project__org"><small>ConverseNow AI.</small></div>
           <div className="project__desc"><small>An internal tool to check and maintain P.C.I compliance of company logs.</small></div>
         </article>
       <article className='projects'>
           <div className='project__image'><img src={Inspector} alt="Portfolio Website" /></div>
           <div className="project__head"><h3>Menu Inspector</h3></div>
-          <div className="project__org"><small>ConverseNow AI</small></div>
+          <div className="project__org"><small>ConverseNow AI.</small></div>
           <div className="project__desc"><small>An internal tool to compare internal menus, menu functions , translations, translation rules and items.</small></div>
         </article>
         <article className='projects'>
@@ -36,6 +36,7 @@ const Projects = () => {
         <article className='projects'>
           <div className='project__image'><img src={Project2Img} alt="AI-Enabled Fintech B2B Invoice Management Application" /></div>
           <div className="project__head"><h3>AI-Enabled Fintech B2B Invoice Management Application</h3></div>
+          <div className="project__org"><small>HighRadius.</small></div>
           <div className="project__desc"><small>A webapp with a React front-end, JDBC for the backend, and MySQL for the database management system. 
             HTTPS requests were handled by Axios.
             To predict the clear_date for invoices, an AI prediction model was constructed and 
