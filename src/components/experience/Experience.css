@@ -40,6 +40,34 @@
     color: var(--color-primary);
 }
 
+/* .work_experience__details > div {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .work_org {
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  
+  .org_position {
+    color: darkgoldenrod;
+  }
+  
+  .work-description{
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+.org_icon {
+    width: 100px; 
+    height: auto; 
+    background-color: lightgray; 
+    padding: 4px;
+    border-radius: 4px; 
+  }
+  
+
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
