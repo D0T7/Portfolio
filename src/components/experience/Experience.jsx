@@ -23,7 +23,7 @@ const Skills = () => {
                                 <img src={CnvLogo} alt='ConverseNow AI' className='org_icon' />
                                 <h4 className='work_org'>Converse Now AI</h4>
                                 <h5 className='org_position'>Automation Engineer</h5>
-                                <h5>2022-2023</h5>
+                                <h5>2022-Present</h5>
                                 <p className='work-description'> <small>My main responsibility is to design and
                                     develop automated testing tools to ensure
                                     software quality and efficiency. I also
