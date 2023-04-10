@@ -17,12 +17,13 @@ const Skills = () => {
             <div className="container experience__container">
                 <div className='experience__programming'>
                     <h3>Work Experience</h3>
-                    <div className="experience__content">
+                    <div className="work_experience_content">
                         <article className='work_experience_details'>
                             <div>
                                 <img src={CnvLogo} alt='ConverseNow AI' className='org_icon' />
                                 <h4 className='work_org'>Converse Now AI</h4>
                                 <h5 className='org_position'>Automation Engineer</h5>
+                                <h5>2022-2023</h5>
                                 <p className='work-description'> <small>My main responsibility is to design and
                                     develop automated testing tools to ensure
                                     software quality and efficiency. I also
@@ -32,17 +33,17 @@ const Skills = () => {
                             </div>
                         </article>
                         <article className='work_experience_details'>
-                            <a href='https://drive.google.com/file/d/1pAvNeS31O5-H6tNX1tEhfo9NBmv1Qn8y/view' target='_blank' rel="noreferrer">
-                                <div>
-                                    <img src={HrLogo} alt='HighRadius' className='org_icon' />
-                                    <h4 className='work_org'>HighRadius</h4>
-                                    <h5 className='org_position'>Intern</h5>
-                                    <p className='work-description'> <small>Involved in creating full stack web app and
-                                        machine learning models.</small></p>
 
-                                </div>
-                            </a>
+                            <div>
+                                <img src={HrLogo} alt='HighRadius' className='org_icon' />
+                                <h4 className='work_org'>HighRadius</h4>
+                                <h5 className='org_position'>Intern</h5>
+                                <h5>2022</h5>
+                                <h6><a href='https://drive.google.com/file/d/1pAvNeS31O5-H6tNX1tEhfo9NBmv1Qn8y/view' target='_blank' rel="noreferrer" >Certificate</a></h6>
+                                <p className='work-description'> <small>Involved in creating full stack web app and
+                                    machine learning models.</small></p>
 
+                            </div>
                         </article>
                     </div>
                 </div>
