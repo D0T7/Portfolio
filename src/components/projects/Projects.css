@@ -28,6 +28,10 @@
     border-radius: 2.5rem;
     overflow: hidden;
 }
+.project__org{
+    margin: 0.5rem;
+    color:darkgoldenrod;
+}
 .project__desc{
     margin: 1.5rem;
     color: var(--color-light);

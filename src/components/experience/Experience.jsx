@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaRegFileCode } from 'react-icons/fa'
-import { SiJava, SiJavascript, SiKotlin, SiPython, SiMysql, SiAndroidstudio, SiCss3, SiHtml5, SiSpringboot, SiReact } from 'react-icons/si'
+import { SiJava, SiJavascript, SiKotlin, SiPython, SiMysql, SiAndroidstudio, SiCss3, SiHtml5, SiSpringboot, SiReact,SiGooglecloud,SiCockroachlabs,SiPostgresql,SiGoland,SiGnubash } from 'react-icons/si'
+import {FaGithub } from 'react-icons/fa'
 import { AiOutlinePartition } from 'react-icons/ai'
 import { CgWebsite } from 'react-icons/cg'
 import { DiMysql } from 'react-icons/di'
@@ -16,8 +17,20 @@ const Skills = () => {
                     <div className="experience__content">
                         <article className='experience_details'>
                             <div>
+                                <SiGnubash className='experience__details-icon'/>
+                                <h4>Bash</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
                                 <FaRegFileCode className='experience__details-icon'/>
                                 <h4>C / C++</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiGoland className='experience__details-icon'/>
+                                <h4>Go</h4>
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -38,6 +51,7 @@ const Skills = () => {
                                 <h4>Kotlin</h4>
                             </div>
                         </article>
+
                         <article className='experience_details'>
                             <div>
                                 <SiPython className='experience__details-icon'/>
@@ -60,6 +74,24 @@ const Skills = () => {
                             <div>
                                 <SiAndroidstudio className='experience__details-icon'/>
                                 <h4>Android App Development</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <FaGithub className='experience__details-icon'/>
+                                <h4>GitHub</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiGooglecloud className='experience__details-icon'/>
+                                <h4>Google Cloud</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiCockroachlabs className='experience__details-icon'/>
+                                <h4>Cockroach DB</h4>
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -90,6 +122,12 @@ const Skills = () => {
                             <div>
                                 <AiOutlinePartition className='experience__details-icon'/>
                                 <h4>Machine Learning</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiPostgresql className='experience__details-icon'/>
+                                <h4>Postgres SQL</h4>
                             </div>
                         </article>
                         <article className='experience_details'>

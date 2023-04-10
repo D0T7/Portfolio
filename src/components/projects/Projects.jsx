@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Projects.css"
+import Inspector from '../../assets/inspector.png'
+import Watchdog from '../../assets/watchdog.png'
 import Project1Img from '../../assets/project1.png'
 import Project2Img from '../../assets/project2.png'
 import Project3Img from '../../assets/project3.png'
@@ -11,13 +13,24 @@ const Projects = () => {
     <section id='Projects'>
       <h2>Projects</h2>
       <div className="container project__container">
+      <article className='projects'>
+          <div className='project__image'><img src={Watchdog} alt="Portfolio Website" /></div>
+          <div className="project__head"><h3>Log Watchdog</h3></div>
+          <div className="project__org"><small>ConverseNow AI</small></div>
+          <div className="project__desc"><small>An internal tool to check and maintain P.C.I compliance of company logs.</small></div>
+        </article>
+      <article className='projects'>
+          <div className='project__image'><img src={Inspector} alt="Portfolio Website" /></div>
+          <div className="project__head"><h3>Menu Inspector</h3></div>
+          <div className="project__org"><small>ConverseNow AI</small></div>
+          <div className="project__desc"><small>An internal tool to compare internal menus, menu functions , translations, translation rules and items.</small></div>
+        </article>
         <article className='projects'>
           <div className='project__image'><img src={Project1Img} alt="Portfolio Website" /></div>
           <div className="project__head"><h3>Portfolio Website</h3></div>
           <div className="project__desc"><small>My personal portfolio built with ReactJS. Reactive and compatible with a variety of device sizes.</small></div>
           <div className="project__cta">
             <a href="https://github.com/D0T7/Portfolio" className='btn'  target='_blank' rel="noreferrer">GitHub</a>
-            {/* <a href="https://d0t7.github.io/portfolio-host/" className='btn btn-primary'>Link</a> */}
           </div>
         </article>
         <article className='projects'>
