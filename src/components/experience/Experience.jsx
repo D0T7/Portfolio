@@ -40,8 +40,7 @@ const Skills = () => {
                                 <h5 className='org_position'>Intern</h5>
                                 <h5>2022</h5>
                                 <h6><a href='https://drive.google.com/file/d/1pAvNeS31O5-H6tNX1tEhfo9NBmv1Qn8y/view' target='_blank' rel="noreferrer" >Certificate</a></h6>
-                                <p className='work-description'> <small>Involved in creating full stack web app and
-                                    machine learning models.</small></p>
+                                <p className='work-description'> <small>I was involved in creating full stack invoice management web app, and machine learning model that would predict the invoice clear date..</small></p>
 
                             </div>
                         </article>
