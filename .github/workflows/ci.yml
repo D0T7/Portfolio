@@ -5,17 +5,20 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read # Explicitly add this.
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install and Build
-      run: |
-        npm install
-        npm run build
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.4.1
-      with:
-        branch: gh-pages
-        folder: build
+      - uses: actions/checkout@v3
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          branch: gh-pages
+          folder: build
