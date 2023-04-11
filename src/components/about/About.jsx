@@ -4,6 +4,7 @@ import { MdOutlineWork } from 'react-icons/md'
 import { TiInfoLarge } from 'react-icons/ti'
 import { AiFillSafetyCertificate } from 'react-icons/ai'
 import { FaGraduationCap } from 'react-icons/fa'
+import {GiTrophy} from 'react-icons/gi'
 
 
 import "./About.css"
@@ -110,7 +111,7 @@ const About = () => {
               <small><br/>10th - J&K Public High School<br /> - 2017 </small>
             </article>
             <article className="about__card">
-              <MdOutlineWork className='about__icon' />
+              <GiTrophy className='about__icon' />
               <h5>Awards</h5>
               <h3>1 : <small>
                 <a href="https://drive.google.com/file/d/1m9MqhNPKnMGMax1qWPYLKRfXTh8lfixl/view" target='_blank' rel="noreferrer">STRONGER TOGETHER</a>
