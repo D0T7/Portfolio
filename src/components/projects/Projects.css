@@ -29,11 +29,23 @@
     overflow: hidden;
     object-fit: contain;
 }
-.project__org{
-    margin: 0.5rem;
-    color:darkgoldenrod;
+
+.oversized_project_image {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    border-radius: 2.5rem;
+    overflow: hidden;
+    object-fit: contain;
 }
-.project__desc{
+
+.project__org {
+    margin: 0.5rem;
+    color: darkgoldenrod;
+}
+
+.project__desc {
     margin: 1.5rem;
     color: var(--color-light);
 }
@@ -50,6 +62,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+
     .project__image {
         height: 180px;
         border-radius: 2.5rem;
@@ -63,6 +76,7 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
     .project__image {
         height: 150px;
         border-radius: 2.5rem;
