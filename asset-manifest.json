@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0cefe4f6.css",
+    "main.css": "/Portfolio/static/css/main.2e30c480.css",
     "main.js": "/Portfolio/static/js/main.ab9507bc.js",
     "static/media/ape4.png": "/Portfolio/static/media/ape4.336816f901062e6172dd.png",
     "static/media/project3.png": "/Portfolio/static/media/project3.7515d90ca89c26366af4.png",
@@ -14,11 +14,11 @@
     "static/media/HighRadius-Trifecta-2020.svg": "/Portfolio/static/media/HighRadius-Trifecta-2020.680ce2f49a5f560b527320bb276c7045.svg",
     "static/media/conversenow-logo-color.svg": "/Portfolio/static/media/conversenow-logo-color.690e26ccc5c0cc2c7e5136cd8e615398.svg",
     "index.html": "/Portfolio/index.html",
-    "main.0cefe4f6.css.map": "/Portfolio/static/css/main.0cefe4f6.css.map",
+    "main.2e30c480.css.map": "/Portfolio/static/css/main.2e30c480.css.map",
     "main.ab9507bc.js.map": "/Portfolio/static/js/main.ab9507bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cefe4f6.css",
+    "static/css/main.2e30c480.css",
     "static/js/main.ab9507bc.js"
   ]
 }
