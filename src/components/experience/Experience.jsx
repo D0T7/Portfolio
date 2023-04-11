@@ -46,62 +46,9 @@ const Skills = () => {
                         </article>
                     </div>
                 </div>
+                {/* End of Work Experience */}
 
-                <div className='experience__programming'>
-                    <h3>Programming Languages</h3>
-                    <div className="experience__content">
-                        <article className='experience_details'>
-                            <div>
-                                <SiGnubash className='experience__details-icon' />
-                                <h4>Bash</h4>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <div>
-                                <FaRegFileCode className='experience__details-icon' />
-                                <h4>C / C++</h4>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <div>
-                                <SiGoland className='experience__details-icon' />
-                                <h4>Go</h4>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <div>
-                                <SiJava className='experience__details-icon' />
-                                <h4>Java</h4>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <div>
-                                <SiJavascript className='experience__details-icon' />
-                                <h4>JavaScript</h4>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <div>
-                                <SiKotlin className='experience__details-icon' />
-                                <h4>Kotlin</h4>
-                            </div>
-                        </article>
 
-                        <article className='experience_details'>
-                            <div>
-                                <SiPython className='experience__details-icon' />
-                                <h4>Python</h4>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <div>
-                                <DiMysql className='experience__details-icon' />
-                                <h4>SQL</h4>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-                {/* End of Programming Languages */}
                 <div className="experience__technologies">
                     <h3>Technologies</h3>
                     <div className="experience__content">
@@ -178,9 +125,67 @@ const Skills = () => {
                             </div>
                         </article>
                     </div>
-                    {/* End of Technologies */}
-
                 </div>
+                {/* End of Technologies */}
+
+
+                <div className='experience__programming'>
+                    <h3>Programming Languages</h3>
+                    <div className="experience__content">
+                        <article className='experience_details'>
+                            <div>
+                                <SiGnubash className='experience__details-icon' />
+                                <h4>Bash</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <FaRegFileCode className='experience__details-icon' />
+                                <h4>C / C++</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiGoland className='experience__details-icon' />
+                                <h4>Go</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiJava className='experience__details-icon' />
+                                <h4>Java</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiJavascript className='experience__details-icon' />
+                                <h4>JavaScript</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <SiKotlin className='experience__details-icon' />
+                                <h4>Kotlin</h4>
+                            </div>
+                        </article>
+
+                        <article className='experience_details'>
+                            <div>
+                                <SiPython className='experience__details-icon' />
+                                <h4>Python</h4>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <div>
+                                <DiMysql className='experience__details-icon' />
+                                <h4>SQL</h4>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                {/* End of Programming Languages */}
+
+
             </div>
         </section>
     )

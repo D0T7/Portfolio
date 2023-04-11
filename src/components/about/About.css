@@ -83,6 +83,18 @@
     color: var(--color-light);
 }
 
+.project_list {
+    display: grid;
+    grid-template: 1fr;
+    gap: 1rem;
+}
+
+.certification_list {
+    display: grid;
+    grid-template: 1fr;
+    gap: 0.45rem;
+    grid-auto-flow: dense;
+}
 
 @media screen and (max-width: 1024px) {
     .about__container {
