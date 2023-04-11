@@ -86,7 +86,7 @@
 .project_list {
     display: grid;
     grid-template: 1fr;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .certification_list {

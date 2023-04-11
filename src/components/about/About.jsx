@@ -55,7 +55,7 @@ const About = () => {
             {/* End of About Me Article */}
 
 
-
+            <a href='#Projects'>
             <article className="about__card">
               <MdOutlineWork className='about__icon' />
               <h5>Projects</h5>
@@ -68,8 +68,8 @@ const About = () => {
                 <h3>6 : <small>Age and Gender Predection(Python)</small></h3> <br />
                 <h3>7 : <small>Face Detection and Recognition(Python)</small></h3> <br />
               </div>
-
             </article>
+            </a>
             {/* End of Projects Article */}
 
 
