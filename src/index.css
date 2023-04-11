@@ -78,6 +78,12 @@ section>h2 {
 .text-light {
     color: var(--color-light);
 }
+.text-light-2 {
+    color: slategrey;
+    /* text-underline-offset: 5px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted; */
+}
 
 a {
     color: var(--color-primary);
