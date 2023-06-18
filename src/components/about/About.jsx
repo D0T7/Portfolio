@@ -36,22 +36,23 @@ const About = () => {
             {/* End of About Me Article */}
 
 
-            <a href='#Projects'>
+            {/* <a href='#Projects'>
               <article className="about__card">
                 <MdOutlineWork className='about__icon' />
                 <h5>Projects</h5>
                 <div className='project_list'>
-                  <h3>1 : <small>Log WatchDog</small> </h3> <br />
-                  <h3>2 : <small>Menu Inspector</small> </h3> <br />
-                  <h3>3 : <small>Portfolio Website(ReactJS)</small> </h3> <br />
-                  <h3>4 : <small>AI-Enabled Fintech B2B Invoice Management Application</small></h3> <br />
-                  <h3>5 : <small>Instagram Redirector(JavaScript)</small></h3> <br />
-                  <h3>6 : <small>Age and Gender Predection(Python)</small></h3> <br />
-                  <h3>7 : <small>Face Detection and Recognition(Python)</small></h3> <br />
+                  <h3>1 : <small>Gollum</small> </h3> <br />
+                  <h3>2 : <small>Log WatchDog</small> </h3> <br />
+                  <h3>3 : <small>Menu Inspector</small> </h3> <br />
+                  <h3>4 : <small>Portfolio Website(ReactJS)</small> </h3> <br />
+                  <h3>5 : <small>AI-Enabled Fintech B2B Invoice Management Application</small></h3> <br />
+                  <h3>6 : <small>Instagram Redirector(JavaScript)</small></h3> <br />
+                  <h3>7 : <small>Age and Gender Predection(Python)</small></h3> <br />
+                  <h3>8 : <small>Face Detection and Recognition(Python)</small></h3> <br />
                 </div>
               </article>
             </a>
-            {/* End of Projects Article */}
+            End of Projects Article */}
 
 
 
