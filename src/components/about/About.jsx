@@ -27,48 +27,29 @@ const About = () => {
             <article className="about__card">
               <TiInfoLarge className='about__icon' />
               <h5>I'm</h5>
-              {/* <small>an effective Student committed to learning, developing relevant
-                skills and team contribution, I'm a fast learner possessing
-                excellent problem-solving capabilities, and the ability to
-                manage a significant workload. I'm self-directed and energetic
-                with superior performance in both autonomous and
-                collaborative environments.
-                <br />I've worked on many projects involving various technologies
-                and languages and have experience with multiple programming languages and technologies.
-              </small> */}
-              <small>an intern working at a startup while balancing my studies, I
-                am a highly motivated and dedicated individual committed to
-                learning and developing relevant skills. I possess excellent
-                problem-solving capabilities and can manage a significant
-                workload efficiently. Being a fast learner, I am always looking
-                for new opportunities to broaden my horizons and challenge
-                myself to improve.
-                Whether working autonomously or as part of a team, I am selfdirected and energetic, and my superior performance allows
-                me to thrive in either environment. I take pride in my ability to
-                collaborate with others on group projects and can work
-                collaboratively towards achieving common goals. With a
-                passion for learning and a drive for success, I am committed to
-                delivering results and making meaningful contributions to any
-                team or project I am a part of.
-              </small>
+              <small>an experienced developer with a strong background in developing automation tools,
+                scalable applications, APIs, and implementing efficient solutions using technologies
+                such as Flask, Git, GitHub, Go, Google Cloud, Kubernetes, PostgreSQL, Python, and ReactJS.
+                I have completed two internships while pursuing my B.Tech, gaining valuable industry exposure.
+                Skilled in problem-solving, delivering efficient solutions, and driving productivity. </small>
             </article>
             {/* End of About Me Article */}
 
 
             <a href='#Projects'>
-            <article className="about__card">
-              <MdOutlineWork className='about__icon' />
-              <h5>Projects</h5>
-              <div className='project_list'>
-                <h3>1 : <small>Log WatchDog</small> </h3> <br />
-                <h3>2 : <small>Menu Inspector</small> </h3> <br />
-                <h3>3 : <small>Portfolio Website(ReactJS)</small> </h3> <br />
-                <h3>4 : <small>AI-Enabled Fintech B2B Invoice Management Application</small></h3> <br />
-                <h3>5 : <small>Instagram Redirector(JavaScript)</small></h3> <br />
-                <h3>6 : <small>Age and Gender Predection(Python)</small></h3> <br />
-                <h3>7 : <small>Face Detection and Recognition(Python)</small></h3> <br />
-              </div>
-            </article>
+              <article className="about__card">
+                <MdOutlineWork className='about__icon' />
+                <h5>Projects</h5>
+                <div className='project_list'>
+                  <h3>1 : <small>Log WatchDog</small> </h3> <br />
+                  <h3>2 : <small>Menu Inspector</small> </h3> <br />
+                  <h3>3 : <small>Portfolio Website(ReactJS)</small> </h3> <br />
+                  <h3>4 : <small>AI-Enabled Fintech B2B Invoice Management Application</small></h3> <br />
+                  <h3>5 : <small>Instagram Redirector(JavaScript)</small></h3> <br />
+                  <h3>6 : <small>Age and Gender Predection(Python)</small></h3> <br />
+                  <h3>7 : <small>Face Detection and Recognition(Python)</small></h3> <br />
+                </div>
+              </article>
             </a>
             {/* End of Projects Article */}
 
