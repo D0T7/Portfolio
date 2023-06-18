@@ -1,6 +1,6 @@
 import React from 'react'
 // import ME from '../../assets/me-about.jpg'
-import { MdOutlineWork } from 'react-icons/md'
+// import { MdOutlineWork } from 'react-icons/md'
 import { TiInfoLarge } from 'react-icons/ti'
 import { AiFillSafetyCertificate } from 'react-icons/ai'
 import { FaGraduationCap } from 'react-icons/fa'
