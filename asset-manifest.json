@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.245c0030.css",
-    "main.js": "/Portfolio/static/js/main.48004a7d.js",
+    "main.js": "/Portfolio/static/js/main.bc9e16f6.js",
     "static/media/ape4.png": "/Portfolio/static/media/ape4.336816f901062e6172dd.png",
     "static/media/project3.png": "/Portfolio/static/media/project3.7515d90ca89c26366af4.png",
     "static/media/project1.png": "/Portfolio/static/media/project1.33fb096857c75a042577.png",
@@ -15,10 +15,10 @@
     "static/media/conversenow-logo-color.svg": "/Portfolio/static/media/conversenow-logo-color.690e26ccc5c0cc2c7e5136cd8e615398.svg",
     "index.html": "/Portfolio/index.html",
     "main.245c0030.css.map": "/Portfolio/static/css/main.245c0030.css.map",
-    "main.48004a7d.js.map": "/Portfolio/static/js/main.48004a7d.js.map"
+    "main.bc9e16f6.js.map": "/Portfolio/static/js/main.bc9e16f6.js.map"
   },
   "entrypoints": [
     "static/css/main.245c0030.css",
-    "static/js/main.48004a7d.js"
+    "static/js/main.bc9e16f6.js"
   ]
 }
