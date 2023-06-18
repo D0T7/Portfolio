@@ -1,5 +1,5 @@
 import React from 'react'
-import ME from '../../assets/me-about.jpg'
+// import ME from '../../assets/me-about.jpg'
 import { MdOutlineWork } from 'react-icons/md'
 import { TiInfoLarge } from 'react-icons/ti'
 import { AiFillSafetyCertificate } from 'react-icons/ai'
@@ -16,11 +16,11 @@ const About = () => {
       <h5>Get to know </h5>
       <h2>About Me</h2>
       <div className="container about__container">
-        <div className='about__me'>
+        {/* <div className='about__me'>
           <div className='about__me-image'>
             <img src={ME} alt='me' />
           </div>
-        </div>
+        </div> */}
 
         <div className='about__content'>
           <div className="about__cards">
