@@ -107,6 +107,9 @@ const About = () => {
                 <h3>12 : <small>
                   <a href="https://www.udemy.com/certificate/UC-426b7182-148e-4e47-8391-820d7a19f3ce/" target='_blank' rel="noreferrer">COMPLETE WEB DEVELOPMENT</a>
                 </small></h3>
+                <h3>13 : <small>
+                  <a href="https://www.udemy.com/certificate/UC-9fe13ce8-a726-4f31-8452-c9a6474f7a0e/" target='_blank' rel="noreferrer">Go: The Complete Developer's Guide (Golang)</a>
+                </small></h3>
               </div>
 
             </article>
@@ -117,7 +120,7 @@ const About = () => {
             <article className="about__card">
               <FaGraduationCap className='about__icon' />
               <h5>Education</h5>
-              <small>B.Tech - Lovely Professional University <br /> - 2019-2023 <br />- 8.4 CGPA<br /></small><br /><hr />
+              <small>B.Tech - Lovely Professional University <br /> - 2019-2023 <br />- 8.46 CGPA<br /></small><br /><hr />
               <small><br />12th - Sri Pratap Higher Secondary School<br /> - 2019<br /></small><br /><hr />
               <small><br />10th - J&K Public High School<br /> - 2017 </small>
             </article>
