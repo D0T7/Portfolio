@@ -7,6 +7,7 @@ import Project2Img from '../../assets/project2.png'
 import Project3Img from '../../assets/project3.png'
 import Project4Img from '../../assets/project4.png'
 import Project5Img from '../../assets/project5.jpg'
+import RSALogo from '../../assets/rsa.png'
 import gollum from '../../assets/gollum.png'
 
 const Projects = () => {
@@ -14,6 +15,14 @@ const Projects = () => {
     <section id='Projects'>
       <h2>Projects</h2>
       <div className="container project__container">
+        <article className='projects'>
+          <div className='project__image'><img src={RSALogo} alt="RSA." className='oversized_project_image' /></div>
+          <div className="project__head"><h3>RSA</h3></div>
+          <div className="project__desc"><small>I've implemented the RSA algorithm including generating the prime numbers and calculating the private and public keys, I've also implemented the encrypting and decrypting function. I've implemented this in python and the prime number generation in C++ and I'm working on implementing it in GoLang. This project has given a better understanding of public key cryptograhpy , working of encryption algorithms and working with large numbers in multiple languages.</small></div>
+
+          <div className="project__cta"><a href="https://github.com/D0T7/RSA" className='btn' target='_blank' rel="noreferrer">GitHub</a></div>
+        </article>
+
         <article className='projects'>
           <div className='project__image'><img src={gollum} alt="Gollum." className='oversized_project_image' /></div>
           <div className="project__head"><h3>Gollum</h3></div>
